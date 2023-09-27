@@ -1,0 +1,45 @@
+.custom-btn-login {
+  border-radius: 20px;
+  width: 150px;
+  height: 35px;
+  margin-top: auto;
+  background-color: tomato;
+}
+
+.nav-custom-bg {
+  background-color: white;
+  background-position: 100%;
+}
+
+@media (max-width: 768px) {
+  .custom-btn-login {
+    width: 100%;
+  }
+}
+
+/* Footer */
+.footer-wraper {
+  background-color: slategrey;
+  min-height: 50px;
+}
+
+.content-img {
+  position: relative;
+  text-align: center;
+}
+
+.datang {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.text-datang {
+  position: absolute;
+  top: 52%;
+  left: 17.4%;
+  color: white;
+  /* transform: translate(-50%, -50%); */
+}
