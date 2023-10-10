@@ -10,23 +10,25 @@
     <h1>Penjumlahan Bilangan</h1>
 
     <div class="container">
-      <tr>
-        <th>
-          Bilangan Pertama
-          <input type="text" id="angka1" placeholder="masukan angka" />
-        </th>
-        <th>
-          Bilangan Kedua
-          <input type="text" id="angka2" placeholder="masukan angka" />
-        </th>
-      </tr>
-
-      <div>
+      <form action="" id="myForm">
         <tr>
-          <button type="submit" onclick="tambah()">Jumlahkan</button>
-          <button type="submit" class="ulang">Ulang</button>
+          <th>
+            Bilangan Pertama
+            <input type="text" id="angka1" placeholder="masukan angka" />
+          </th>
+          <th>
+            Bilangan Kedua
+            <input type="text" id="angka2" placeholder="masukan angka" />
+          </th>
         </tr>
-      </div>
+
+        <div>
+          <tr>
+            <button type="submit" onclick="tambah()">Jumlahkan</button>
+            <input type="button" value="Ulang" onclick="ngulang()" />
+          </tr>
+        </div>
+      </form>
     </div>
   </body>
 </html>

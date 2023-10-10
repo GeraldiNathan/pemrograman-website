@@ -6,3 +6,7 @@ function tambah() {
 
   alert("Hasil Penjumlahan = " + hasil);
 }
+
+function ngulang() {
+  document.getElementById("myForm").reset();
+}
