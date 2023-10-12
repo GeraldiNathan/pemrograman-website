@@ -10,9 +10,6 @@ document
     if (nama === "" || email === "" || alamat === "") {
       alert("Semua data harus diisi.");
     } else {
-      // Lakukan tindakan selanjutnya, misalnya, mengirimkan data ke server.
       alert("Data berhasil disubmit.");
-      // Clear form jika diperlukan:
-      // document.getElementById("registrationForm").reset();
     }
   });
