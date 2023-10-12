@@ -10,6 +10,15 @@ document
     if (nama === "" || email === "" || alamat === "") {
       alert("Semua data harus diisi.");
     } else {
-      alert("Data berhasil disubmit.");
+      alert(
+        "Info Detail Data" +
+          "\nNama: " +
+          nama +
+          "\nEmail:" +
+          email +
+          "\nAlamat:" +
+          alamat +
+          "\nData berhasil ditambah :)"
+      );
     }
   });
