@@ -1,14 +1,28 @@
+body {
+  background-color: bisque;
+}
+
 .container {
-  text-align: center;
-  padding: 20px;
+  background-color: #244560;
+  width: 100%;
+  max-width: 350px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-top: 5%;
 }
 
 .calculator-screen {
-  width: auto;
-  height: 60px;
+  width: 20rem;
+  height: 120px;
   font-size: 24px;
   text-align: right;
-  padding: 10px;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: bisque;
 }
 
 .btn {
@@ -16,4 +30,5 @@
   height: 60px;
   font-size: 24px;
   margin: 5px;
+  border-radius: 50%;
 }
