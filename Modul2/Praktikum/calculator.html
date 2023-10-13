@@ -1,3 +1,98 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+    />
+    <title>Calculator.JS</title>
+  </head>
+  <body style="">
+    <div class="container" style="align-items: center">
+      <div>
+        <input type="text" class="calculator-screen" />
+      </div>
+
+      <div>
+        <button type="button" class="operator btn btn-outline-dark" value="AC">
+          AC
+        </button>
+        <button type="button" class="operator btn btn-info" value="+/-">
+          +/-
+        </button>
+        <button type="button" class="operator btn btn-info" value="%">%</button>
+        <button type="button" class="operator btn btn-info" value="/">
+          &divide;
+        </button>
+      </div>
+
+      <div class="">
+        <button type="button" class="btn btn-dark waves-effect" value="1">
+          1
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="2">
+          2
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="3">
+          3
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="X">
+          &times;
+        </button>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-dark waves-effect" value="4">
+          4
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="5">
+          5
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="6">
+          6
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="-">
+          -
+        </button>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-dark waves-effect" value="7">
+          7
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="8">
+          9
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="9">
+          9
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="+">
+          +
+        </button>
+      </div>
+
+      <div>
+        <button type="button" class="btn btn-dark waves-effect" value=".">
+          .
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="0">
+          0
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="00">
+          00
+        </button>
+        <button type="button" class="btn btn-dark waves-effect" value="=">
+          &equals;
+        </button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html> -->
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -7,44 +102,53 @@
       rel="stylesheet"
       href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
     />
-    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator.JS</title>
   </head>
   <body>
     <div class="container">
-      <div class="result-page mb-3 pb-2">Ini adalah hasil</div>
+      <input type="text" class="calculator-screen" />
 
-      <div class="row col">
-        <button>AC</button>
-        <button>+/-</button>
-        <button>%</button>
-        <button>/</button>
+      <div>
+        <button type="button" class="operator btn btn-outline-dark" value="AC">
+          AC
+        </button>
+        <button type="button" class="operator btn btn-info" value="+/-">
+          +/-
+        </button>
+        <button type="button" class="operator btn btn-info" value="%">%</button>
+        <button type="button" class="operator btn btn-info" value="/">
+          &divide;
+        </button>
       </div>
 
-      <div class="row col">
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button>X</button>
+      <div>
+        <button type="button" class="btn btn-dark" value="1">1</button>
+        <button type="button" class="btn btn-dark" value="2">2</button>
+        <button type="button" class="btn btn-dark" value="3">3</button>
+        <button type="button" class="btn btn-info" value="*">&times;</button>
       </div>
 
-      <div class="row col">
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button>-</button>
+      <div>
+        <button type="button" class="btn btn-dark" value="4">4</button>
+        <button type="button" class="btn btn-dark" value="5">5</button>
+        <button type="button" class="btn btn-dark" value="6">6</button>
+        <button type="button" class="btn btn-info" value="-">-</button>
       </div>
 
-      <div class="row col">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>+</button>
+      <div>
+        <button type="button" class="btn btn-dark" value="7">7</button>
+        <button type="button" class="btn btn-dark" value="8">8</button>
+        <button type="button" class="btn btn-dark" value="9">9</button>
+        <button type="button" class="btn btn-info" value="+">+</button>
       </div>
 
-      <div class="row">
-        <button>0</button>
-        <button>.</button>
-        <button>=</button>
+      <div>
+        <button type="button" class="btn btn-dark" value=".">.</button>
+        <button type="button" class="btn btn-dark" value="0">0</button>
+        <button type="button" class="btn btn-dark" value="00">00</button>
+        <button type="button" class="btn btn-info" value="=">=</button>
       </div>
     </div>
 
