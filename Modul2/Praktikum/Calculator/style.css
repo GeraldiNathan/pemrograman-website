@@ -1,0 +1,35 @@
+body {
+  /* background-color: saddlebrown; */
+  background-image: linear-gradient(to right, #121212, teal);
+}
+
+.container {
+  background-color: #244560;
+  width: 100%;
+  max-width: 350px;
+  min-height: 60px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  margin-top: 5%;
+}
+
+.calculator-screen {
+  width: 20rem;
+  height: 120px;
+  font-size: 24px;
+  text-align: right;
+  border-radius: 50px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: bisque;
+}
+
+.btn {
+  width: 4.2rem;
+  height: 60px;
+  font-size: 24px;
+  margin: 5px;
+  border-radius: 50%;
+}
