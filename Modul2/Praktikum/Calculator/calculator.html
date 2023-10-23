@@ -8,12 +8,35 @@
       href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="style.css" />
-    <title>Calculator.JS</title>
+    <head>
+      <title>Calculator.JS</title>
+      <link rel="shortcut icon" href="/Modul2/Assets/GreenDino.png" />
+    </head>
   </head>
   <body>
     <div class="container">
       <div>
         <input type="text" class="calculator-screen" readonly />
+      </div>
+
+      <!-- 
+        Div untuk operator
+        1. Log
+        2. sin cos tan
+        3. Akar
+        4. 
+       -->
+      <div>
+        <button
+          type="button"
+          class="operator btn btn-info fw-semibold"
+          value="akar"
+        >
+          91
+        </button>
+        <button type="button" class="operator btn btn-info" value=""></button>
+        <button type="button" class="operator btn btn-info" value=""></button>
+        <button type="button" class="operator btn btn-info" value=""></button>
       </div>
 
       <div>
@@ -57,7 +80,7 @@
       <div>
         <button type="button" class="btn btn-dark" value=".">.</button>
         <button type="button" class="btn btn-dark" value="0">0</button>
-        <button type="button" class="btn btn-dark" value="pangkat">^</button>
+        <button type="button" class="btn btn-dark" value="00">00</button>
         <button type="button" class="btn btn-info" value="=">=</button>
       </div>
     </div>
