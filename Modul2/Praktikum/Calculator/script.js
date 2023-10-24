@@ -26,11 +26,29 @@ document.addEventListener("DOMContentLoaded", function () {
       case "/":
         currentInput = (firstNumber / secondNumber).toString();
         break;
-      case "%":
+      case "Mod":
         currentInput = (firstNumber % secondNumber).toString();
         break;
       case "^":
         currentInput = Math.pow(firstNumber, secondNumber).toString();
+        break;
+      case "%":
+        currentInput = (firstNumber / 100).toString();
+        break;
+      case "akar":
+        currentInput = Math.sqrt(firstNumber).toString();
+        break;
+      case "Log":
+        currentInput = Math.log10(firstNumber).toString();
+        break;
+      case "Sin":
+        currentInput = Math.sin(firstNumber * (Math.PI / 180)).toString();
+        break;
+      case "Cos":
+        currentInput = Math.cos(firstNumber * (Math.PI / 180)).toString();
+        break;
+      case "Tan":
+        currentInput = Math.tan(firstNumber * (Math.PI / 180)).toString();
         break;
     }
 
