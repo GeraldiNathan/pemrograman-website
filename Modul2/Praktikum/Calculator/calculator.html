@@ -3,15 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+      <title>Calculator</title>
+      <link rel="shortcut icon" href="/Assets/GreenDino.png" />
+    </head>
     <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
     />
     <link rel="stylesheet" href="style.css" />
-    <head>
-      <title>Calculator.JS</title>
-      <link rel="shortcut icon" href="/Modul2/Assets/GreenDino.png" />
-    </head>
   </head>
   <body>
     <div class="container">
@@ -20,71 +22,64 @@
       </div>
 
       <!-- 
-        Div untuk operator
-        1. Log
-        2. sin cos tan
-        3. Akar
-        4. 
+        //Mod : Modulus atau hasil bagi
        -->
       <div>
-        <button
-          type="button"
-          class="operator btn btn-info fw-semibold"
-          value="akar"
-        >
-          91
-        </button>
-        <button type="button" class="operator btn btn-info" value=""></button>
-        <button type="button" class="operator btn btn-info" value=""></button>
-        <button type="button" class="operator btn btn-info" value=""></button>
+        <button type="button" class="btn btn-dark fw-bold" value="AC">C</button>
+        <button type="button" class="btn btn-dark" value="pangkat">^</button>
+        <button type="button" class="btn btn-dark" value="Mod">Mod</button>
+        <button type="button" class="btn btn-dark" value="%">%</button>
+        <button type="button" class="btn btn-dark" value="/">&divide;</button>
       </div>
 
       <div>
         <button
           type="button"
-          class="operator btn btn-info fw-semibold"
-          value="AC"
+          class="operator btn btn-dark fw-semibold"
+          value="akar"
         >
-          C
+          √
         </button>
-        <button type="button" class="operator btn btn-info" value="pangkat">
-          ^
-        </button>
-        <button type="button" class="operator btn btn-info" value="%">%</button>
-        <button type="button" class="operator btn btn-info" value="/">
-          &divide;
-        </button>
+        <button type="button" class="btn btn-dark" value="Log">Log</button>
+        <button type="button" class="btn btn-dark" value="Sin">Sin</button>
+        <button type="button" class="btn btn-dark" value="Cos">Cos</button>
+        <button type="button" class="btn btn-dark" value="Tan">Tan</button>
       </div>
 
       <div>
         <button type="button" class="btn btn-dark" value="1">1</button>
         <button type="button" class="btn btn-dark" value="2">2</button>
         <button type="button" class="btn btn-dark" value="3">3</button>
-        <button type="button" class="btn btn-info" value="*">&times;</button>
+        <button type="button" class="btn btn-dark" value="*">&times;</button>
       </div>
 
       <div>
         <button type="button" class="btn btn-dark" value="4">4</button>
         <button type="button" class="btn btn-dark" value="5">5</button>
         <button type="button" class="btn btn-dark" value="6">6</button>
-        <button type="button" class="btn btn-info" value="-">-</button>
+        <button type="button" class="btn btn-dark" value="-">-</button>
       </div>
 
       <div>
         <button type="button" class="btn btn-dark" value="7">7</button>
         <button type="button" class="btn btn-dark" value="8">8</button>
         <button type="button" class="btn btn-dark" value="9">9</button>
-        <button type="button" class="btn btn-info" value="+">+</button>
+        <button type="button" class="btn btn-dark" value="+">+</button>
       </div>
 
       <div>
         <button type="button" class="btn btn-dark" value=".">.</button>
         <button type="button" class="btn btn-dark" value="0">0</button>
         <button type="button" class="btn btn-dark" value="00">00</button>
-        <button type="button" class="btn btn-info" value="=">=</button>
+        <button type="button" class="btn btn-dark" value="=">=</button>
       </div>
     </div>
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
     <script src="script.js"></script>
   </body>
 </html>
