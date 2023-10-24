@@ -6,7 +6,7 @@ body {
 .container {
   background-color: #244560;
   width: 100%;
-  max-width: 350px;
+  max-width: 450px;
   min-height: 60px;
   display: flex;
   flex-direction: column;
@@ -16,11 +16,11 @@ body {
 }
 
 .calculator-screen {
-  width: 20rem;
+  width: 25rem;
   height: 120px;
   font-size: 24px;
   text-align: right;
-  border-radius: 50px;
+  border-radius: 1.5rem;
   margin-top: 30px;
   margin-bottom: 50px;
   background-color: bisque;
@@ -32,4 +32,12 @@ body {
   font-size: 24px;
   margin: 5px;
   border-radius: 50%;
+}
+
+.btn:active {
+  background-color: #3b3b3b;
+  color: black;
+  transform: scale(0.95);
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+  transition: all 0.1s;
 }
