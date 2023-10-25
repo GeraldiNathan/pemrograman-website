@@ -5,36 +5,49 @@ const Home = () => <h1>Home</h1>;
 const About = () => (
   <div>
     <h1>About Us</h1>
-    {/* Content for the About page goes here */}
   </div>
 );
 const Contact = () => <h1>Contact Us</h1>;
 
 function App() {
+  const LiStyle = {
+    marginBottom: 5,
+    padding: "10px 20px",
+    border: "1px solid #ccc",
+    borderRadius: 5,
+    background: "#f5f5f5",
+  };
+
   return (
     <Router>
-      <p style={{ fontSize: 35 }}>Navbar</p>
+      <p style={{ fontSize: 50, marginTop: 28 }}>Navbar</p>
       <nav>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <button style={LiStyle}>
+              <Link to="/">Home</Link>
+            </button>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <button style={LiStyle}>
+              <Link to="/about">About</Link>
+            </button>
           </li>
           <li>
-            <Link to="/contact">Contact Us</Link>
+            <button style={LiStyle}>
+              <Link to="/contact">Contact Us</Link>
+            </button>
           </li>
         </ul>
       </nav>
-      <p>Halaman Abous Us</p>
+      <p style={{ fontSize: 50 }}>Halaman Abous Us</p>
       <Routes>
         <Route path="/" element={Home} />
         <Route path="/about" element={About} />
         <Route path="/contact" element={Contact} />
       </Routes>
 
-      <p>Footer</p>
+      <p style={{ fontSize: 50 }}>Footer</p>
     </Router>
   );
 }
