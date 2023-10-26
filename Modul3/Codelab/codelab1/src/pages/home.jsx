@@ -1,5 +1,6 @@
 import FooterComponent from "../components/footer";
 import NavbarComponent from "../components/navbar";
+// import NavbarComponent from "../components/navbar";
 import { Link } from "react-router-dom";
 
 export default function HomePage() {

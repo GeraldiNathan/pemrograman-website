@@ -1,7 +1,7 @@
 export default function NavbarComponent() {
   return (
     <>
-      <p>Navbar Component</p>
+      <p>Navbar Compononent</p>
     </>
   );
 }
