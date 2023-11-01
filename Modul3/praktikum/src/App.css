@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,32 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.nav-custom-bg {
+  background-color: white;
+  background-position: 100%;
+}
+
+/* Footer */
+.footer-wraper {
+  background-color: slategrey;
+  min-height: 50px;
+}
+
+.text-main {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-60%, 50%);
+  color: white;
+}
+
+.praktikum {
+  background-image: url("./Assests/hero.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 330px;
+
+  /* For The Text */
 }

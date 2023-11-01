@@ -1,9 +1,16 @@
-function ContactPage() {
+import React from "react";
+import Hero from "../Components/Hero";
+import Footer from "../Components/Footer";
+import Navbar from "../Components/Navbar";
+
+const ContactPage = () => {
   return (
     <>
-      <h1 class="">Hello World</h1>
+      <Navbar />
+      <Hero />
+      <Footer />
     </>
   );
-}
+};
 
 export default ContactPage;

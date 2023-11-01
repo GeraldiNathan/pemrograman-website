@@ -1,10 +1,16 @@
-function AboutPage() {
+import React from "react";
+import Navbar from "../Components/Navbar";
+import Hero from "../Components/Hero";
+import Footer from "../Components/Footer";
+
+const AboutPage = () => {
   return (
     <>
-      <button class="">Login</button>
-      {/* Dont forget to use bootstrap grl */}
+      <Navbar />
+      <Hero />
+      <Footer />
     </>
   );
-}
+};
 
 export default AboutPage;
