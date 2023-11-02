@@ -1,14 +1,14 @@
-import "../App.css";
+import "../Assests/css/style.css";
 import "../bootstrap.css";
-import logo from "../Assests/logo-ilab.png";
-import instagram from "../Assests/logo-instagram.png";
-import twitter from "../Assests/logo-twitter.png";
-import facebook from "../Assests/logo-facebook.png";
+import logo from "../Assests/img/logo-ilab.png";
+import instagram from "../Assests/img/logo-instagram.png";
+import twitter from "../Assests/img/logo-twitter.png";
+import facebook from "../Assests/img/logo-facebook.png";
 
-const Footer = () => {
+function Footer() {
   return (
-    <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
-      <div className="container">
+    <div className="container">
+      <footer className="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5">
         <div className="col mb-3">
           <a
             href=""
@@ -31,9 +31,9 @@ const Footer = () => {
             Copyright ©, 2023 Infinite Learning
           </p>
         </div>
-        {/* Spacing Div */}
+
         <div className="col mb-3" />
-        {/* Continue The Navbar */}
+
         <div className="col mb-3">
           <h5 className="mb-3" style={{ color: "grey" }}>
             Services
@@ -128,9 +128,9 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-      </div>
-    </footer>
+      </footer>
+    </div>
   );
-};
+}
 
 export default Footer;

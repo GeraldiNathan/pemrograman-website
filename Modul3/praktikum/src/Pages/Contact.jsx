@@ -3,7 +3,7 @@ import Hero from "../Components/Hero";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
-const ContactPage = () => {
+function ContactPage() {
   return (
     <>
       <Navbar />
@@ -11,6 +11,6 @@ const ContactPage = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default ContactPage;

@@ -1,13 +1,14 @@
 import React from "react";
-import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
-const HomePage = () => {
+function HomePage() {
   return (
     <>
       <Navbar />
       <Hero />
+
       {/* <div>
         <img src=".Assets/hero.jpg" alt="" />
         <p>Selamat Datang</p>
@@ -16,6 +17,6 @@ const HomePage = () => {
       <Footer />
     </>
   );
-};
+}
 
 export default HomePage;

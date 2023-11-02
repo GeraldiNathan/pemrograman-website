@@ -37,6 +37,7 @@
   }
 } */
 
+/* OWN CSS */
 .nav-custom-bg {
   background-color: white;
   background-position: 100%;
@@ -57,10 +58,7 @@
 }
 
 .praktikum {
-  background-image: url("./Assests/hero.jpg");
   background-size: cover;
   background-position: center;
   padding: 330px;
-
-  /* For The Text */
 }

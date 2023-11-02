@@ -1,7 +1,7 @@
 // import React from "react";
-import heroLogo from "../Assests/hero.jpg";
+import heroLogo from "../Assests/img/hero.jpg";
 
-const Hero = () => {
+function Hero() {
   return (
     <div className="card text-bg-dark">
       <img src={heroLogo} className="card-img" alt="" />
@@ -18,6 +18,6 @@ const Hero = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Hero;

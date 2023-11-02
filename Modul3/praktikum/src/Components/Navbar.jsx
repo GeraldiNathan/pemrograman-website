@@ -1,12 +1,12 @@
-import "../App.css";
+import "../Assests/css/style.css";
 import "../bootstrap.css";
-import logo from "../Assests/logo-ilab.png";
+import logo from "../Assests/img/logo-ilab.png";
 
-const Navbar = () => {
+function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary nav-custom-bg fixed-top">
       <div className="container-fluid">
-        <a className="navbar-brand" href="https://infotech.umm.ac.id/">
+        <a className="navbar-brand" href="">
           <img src={logo} alt="" width={100} />
         </a>
         <button
@@ -28,7 +28,7 @@ const Navbar = () => {
                   className="nav-link active ml-3"
                   aria-current="page"
                   style={{ marginLeft: "2rem" }}
-                  href="https://infotech.umm.ac.id/"
+                  href="/"
                 >
                   Home
                 </a>
@@ -37,7 +37,7 @@ const Navbar = () => {
                 <a
                   className="nav-link active ml-3"
                   style={{ marginLeft: "2rem" }}
-                  href="https://infotech.umm.ac.id/"
+                  href="/about"
                 >
                   About Us
                 </a>
@@ -46,7 +46,7 @@ const Navbar = () => {
                 <a
                   className="nav-link active ml-3"
                   style={{ marginLeft: "2rem" }}
-                  href="https://infotech.umm.ac.id/"
+                  href="/contact"
                 >
                   Contact
                 </a>
@@ -65,6 +65,6 @@ const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
 
 export default Navbar;
