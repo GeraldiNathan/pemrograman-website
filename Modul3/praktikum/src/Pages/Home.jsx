@@ -8,12 +8,6 @@ function HomePage() {
     <>
       <Navbar />
       <Hero />
-
-      {/* <div>
-        <img src=".Assets/hero.jpg" alt="" />
-        <p>Selamat Datang</p>
-        <p>di Website Praktikum Pemrograman Website </p>
-      </div> */}
       <Footer />
     </>
   );

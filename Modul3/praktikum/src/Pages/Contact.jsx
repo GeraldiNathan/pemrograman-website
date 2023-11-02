@@ -1,13 +1,13 @@
 import React from "react";
-import Hero from "../Components/Hero";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import ContactContent from "../Components/ContactContent";
 
 function ContactPage() {
   return (
     <>
       <Navbar />
-      <Hero />
+      <ContactContent />
       <Footer />
     </>
   );
