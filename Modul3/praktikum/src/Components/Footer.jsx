@@ -40,22 +40,34 @@ function Footer() {
           </h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Email Marketing
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Campaigns
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Branding
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Offline
               </a>
             </li>
@@ -67,22 +79,34 @@ function Footer() {
           </h5>
           <ul className="nav flex-column">
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Our Story
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Benefits
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Team
               </a>
             </li>
             <li className="nav-item mb-4">
-              <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+              <a
+                href=""
+                className="nav-link p-0 text-body-secondary fw-semibold"
+              >
                 Careers
               </a>
             </li>
@@ -93,7 +117,10 @@ function Footer() {
           <div className="row">
             <ul className="nav flex-column">
               <li className="nav-item mb-2">
-                <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+                <a
+                  href=""
+                  className="nav-link p-0 text-body-secondary fw-semibold"
+                >
                   <img
                     src={facebook}
                     alt=""
@@ -104,7 +131,10 @@ function Footer() {
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+                <a
+                  href=""
+                  className="nav-link p-0 text-body-secondary fw-semibold"
+                >
                   <img
                     src={twitter}
                     alt=""
@@ -115,7 +145,10 @@ function Footer() {
                 </a>
               </li>
               <li className="nav-item mb-2">
-                <a href="" className="nav-link p-0 text-body-secondary fw-bold">
+                <a
+                  href=""
+                  className="nav-link p-0 text-body-secondary fw-semibold"
+                >
                   <img
                     src={instagram}
                     alt=""
