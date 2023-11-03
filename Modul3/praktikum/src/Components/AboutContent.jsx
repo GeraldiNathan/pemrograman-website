@@ -13,7 +13,7 @@ function AboutContent() {
           Selamat Datang
         </h1>
         <h4 className="card-text pb-5" style={{ marginLeft: "12rem" }}>
-          Di About Content
+          Di Page About
         </h4>
       </div>
     </div>
