@@ -1,5 +1,5 @@
 # Pemrograman Website
-This repository are focusing on Web Develepoment course at Universitas Muhammadiyah Malang. Also, this repo filled by all soruce code for all modules
+This repository are focusing on Web Develepoment course at Universitas Muhammadiyah Malang. Also, this repo filled by all source code for all modules
 
 
 # Folder Structure
