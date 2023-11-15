@@ -2,9 +2,6 @@
 
 namespace Controller;
 
-// include "/Kuliah/Semester-5/Web-5A/Praktikum_Web-5A/Modul4/Codelab/Traits/ResponsiveFormatter.php";
-// include "/Kuliah/Semester-5/Web-5A/Praktikum_Web-5A/Modul4/Codelab/Controllers/Controller.php";
-
 include "Traits/ResponseFormatter.php";
 include "Controllers/Controller.php";
 
