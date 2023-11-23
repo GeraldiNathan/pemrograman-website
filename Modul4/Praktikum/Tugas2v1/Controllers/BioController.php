@@ -35,18 +35,4 @@ class BioController extends Controller
         ];
         return $this->responseFormat(200, "Success", $response);
     }
-    // public function getDrama($index)
-    // {
-    //     $data = $this->dataDummy();
-    //     $response = [
-    //         "controller_attribute " => $this->getAttribute("GetDramaByID", "GET"),
-    //         "drama" => "No Data Recieved"
-    //     ];
-    //     if ($index <= count($data)) {
-    //         $response["drama"] = $data[$index - 1];
-    //         return $this->responseFormat(200, "Success", $response);
-    //     } else {
-    //         return $this->responseFormat(400, "Failed", $response);
-    //     }
-    // }
 }
